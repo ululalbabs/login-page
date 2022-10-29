@@ -1,0 +1,218 @@
+*{
+    text-decoration: none;
+}
+body {
+    background-color: #000000;
+    background-image: url('video.gif');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+/*------------------Navigation Bar------------------*/
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.button-bar a{
+    margin: 0px 5px;
+}
+.button-bar i{
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+.button-bar i:hover{
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+    transition: all .3s ease-in-out;
+}
+.button-bar2 i{
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+.button-bar2 i:hover{
+    color: #ff3c00;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+    transition: all .3s ease-in-out;
+}
+.item-logo {
+    color: white;
+    font-size: 10px;
+}
+.item-logo img {
+    width: 35px;
+    padding-top: 5px;
+    transition: all .5s ease-in-out;
+}
+.item-logo img:hover {
+    transform: rotate(360deg);
+    transition: all .5s ease-in-out;
+}
+.item-logo p{
+    border-top: 1px solid #ffffff;
+    margin: 0;
+    padding-top: 5px;
+    transition: all .3s ease-in-out;
+}
+.item-logo i{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.item {
+    color: white;
+}
+.item1 {
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: all .2s;
+}
+.item1:hover{
+    background-color: #ff3c00;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+    transition: all .2s;
+}
+.item2 {
+    color: white;
+    background-color: #ff3c00;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: all .2s;
+}
+.item2:hover{
+    color: #ff3c00;
+    background-color: white;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+    transition: all .2s;
+}
+/*------------------Form------------------*/
+.main{
+    height: 50vh;
+}
+.main-content {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 60vh;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    width: 50vh;
+    box-shadow: 2px 2px 11px 5px rgba(0, 0, 0, 0.18);
+}
+.main-content h1{
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.main-content p{
+    font-size: 12px;
+    margin: 5px;
+}
+/*------------------Inputs------------------*/
+.field {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    display: flex;
+    margin-top: .9em;
+    padding: .5em 1em;
+    width: 43vh;
+}
+.field i{
+    padding-right: 10px;
+}
+.input-field {
+    background: none;
+    border: none;
+    color: #000000;
+    outline: none;
+    transition: all .3s;
+    width: 100%;
+}
+.input-field:focus::placeholder {
+    opacity: 0;
+    transition: all .3s;
+}
+.card p {
+    font-size: 12px;
+    margin: 10px;
+    text-align: left;
+    cursor: pointer;
+} 
+.btn-submit {
+    border: none;
+    border-radius: 10px;
+    background-color: #ff3c00;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 3em;
+    letter-spacing: 1px;
+    overflow: hidden;
+    padding: 0.6em 1.2em;
+    position: relative;
+    transition: all .3s ease-in-out;
+    width: 48vh;
+}
+.btn-submit:hover {
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+.login-arrow {
+    align-items: center;
+    display: flex;
+    height: 3em;
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    top: 3em;
+    transition: all .3s ease-in-out;
+}
+.btn-submit:hover .login-arrow {
+    opacity: 1;
+    top: 0;
+    transition: all .3s ease-in-out;
+   }
+/*------------------Sign in With------------------*/
+.signin-with {
+    color: black;
+    text-decoration: none;
+}
+.signin-with p{
+    font-size: 12px;
+    margin: 10px;
+}
+.account button{
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    padding: 9px 8px;
+    transition: all .3s;
+}
+.account button:hover{
+    background-color: #ff3c00;
+    color: white;
+    transition: all .3s;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+.account i {
+    font-size: 15px;
+    padding: 5px;
+}
+/*------------------Sign Up Now------------------*/
+.req p{
+    margin: 10px;
+    color: black;
+    font-size: 10px;
+}
+/*------------------Footer------------------*/
+.footer{
+    padding: 10px 0;
+}
+.footer p{
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}

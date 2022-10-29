@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" href="asset/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Form Login</title>
+</head>
+<body>
+    <nav class="menu-bar">
+        <div class="button-bar">
+          <a href="" class="item-logo"><img src="asset/logo.png">
+            <p>admin@Ulul <i class="bi bi-arrow-right"></i></p>
+        </a>
+        </div>
+        <div class="button-bar2">
+            <a href="" class="item"><i class="bi bi-globe"></i></a>
+            <a href="" class="item1">Sign Up</a>
+            <a href="" class="item2">Request Demo</a>
+        </div>
+      </nav>       
+    <div class="main">
+        <div class="main-content">
+        <h1><span class="auto-input"></span></h1>
+        <p>Hey, Enter your details to get sign in to your account</p>
+        <center>  
+        <form class="card">
+            <div class="field">
+              <i class="bi bi-at"></i>
+              <input class="input-field" type="email" placeholder="Email">
+            </div>
+            <div class="field">
+              <i class="bi bi-shield-lock-fill"></i>
+              <input class="input-field" type="password" placeholder="Password">
+            </div>
+            <p>Having trouble in sign in?</p>
+            <button class="btn-submit" type="submit">
+              <span class="login">Login</span>
+              <span class="login-arrow">
+                <i class="bi bi-arrow-right"></i>
+              </span>
+            </button>
+          </form>
+        </center>
+        <a class="signin-with" href=""><p>- Or Sign in with -</p></a>
+        <div class="account">
+          <a href="https://accounts.google.com/AddSession/signinchooser?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank" ><button><i class="bi bi-google"></i>Google</button></a>
+          <a href="https://appleid.apple.com/sign-in" target="_blank"><button><i class="bi bi-apple"></i>Apple ID</button></a>
+          <a href="https://www.facebook.com/?stype=lo&jlou=Afc6RBT1vDJWKIWiNa7kjpp0CcOzSb5xhyo-q0pMR7iT8mZfvZ73M_kgSK3gkMyedZQDvcPzYolcqrQaCMqF-gx_UdFhdLr9HDbuP4AapBDbrA&smuh=39778&lh=Ac_HDoIj1joiLp8Uy_8" target="_blank"><button><i class="bi bi-facebook"></i>Facebook</button></a>
+        </div>
+        <div class="req"><a href=""><p>Don't have an account?<b> Register Now</b></p></a></div>
+    </div>
+    <div class="footer">
+        <p>&#169; 2022 Ulul Albab | All Rights Reserved</p>
+    </div>
+  <script>
+    let typed = new Typed(".auto-input", {
+      strings: ["Form Login"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    })
+  </script>
+</body>
+</html>
